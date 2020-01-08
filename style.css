@@ -1,0 +1,169 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+*{
+	font-family: Inter;
+}
+
+body{
+	background: #f9f9f9;
+}
+
+@font-face {
+	font-family: "GilroyExtraBold";  
+	src: url("../fonts/GILROY/Gilroy-ExtraBold.ttf"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+.main{
+	display: flex;
+}
+
+.header{
+	margin-left: 325px;
+}
+
+h1{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 52px;
+	line-height: 109.5%;
+	color: #330099;
+}
+
+.header_text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.first{
+	width: 381px;
+	margin-left: 325px;
+	margin-top: 45px;
+	background: #ffffff;
+	padding: 24px;
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.h1{
+	font-weight: 800;
+	font-size: 24px;
+	margin-bottom: 24px; 
+}
+
+.sale{
+	color: #ffffff;
+	display: inline;
+	margin-left: 120px;
+	text-align: center;
+	background: #D40404;
+	border-radius: 4px;
+	padding:  8px;
+	font-size: 14px;
+	line-height: 100%;
+	font-weight: bold;
+}
+
+.text{
+	margin-top: 24px;
+}
+
+.h2{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 100%;
+}
+
+ul{
+	padding: 0;
+	margin-left: 24px;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.hid{
+	opacity: 0.5;
+}
+
+.price{
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 100%;
+	margin-bottom: 24px;
+}
+
+.price-sale{
+	display: inline;
+	font-weight: bold;
+	text-decoration:line-through;
+	opacity: 0.5;
+}
+
+.bucket{
+	position: relative;
+	width: 44px;
+	height: 44px;
+	left: 57px;
+	top: 10px;
+}
+
+.second{
+	position: relative;
+	margin-left: 24px;
+	width: 381px;
+	margin-top: 45px;
+	background: #ffffff;
+	padding: 24px;
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.h3{
+	font-weight: 800;
+	font-size: 24px;
+	margin-bottom: 24px; 
+}
+
+.pop{
+	color: #ffffff;
+	display: inline;
+	margin-left: 10px;
+	text-align: center;
+	background: #039C5C;
+	border-radius: 4px;
+	padding:  8px;
+	font-size: 14px;
+	line-height: 100%;
+	font-weight: bold;
+}
+
+.bucket2{
+	position: relative;
+	width: 44px;
+	height: 44px;
+	left: 135px;
+	top: 10px;
+}
+
+
+.third{
+	position: relative;
+	margin-left: 24px;
+	width: 381px;
+	margin-top: 45px;
+	background: #ffffff;
+	padding: 24px;
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.05);
+}
